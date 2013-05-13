@@ -37,7 +37,7 @@
                         <li class="active"><a href="#">Home</a></li>
                         <li><a href="#about">Pedales</a></li>
                         <li><a href="#about">Sobre Nosotros</a></li>
-                        <li><a href="#contact">Contacto</a></li>
+                        <li><a href="{{ ROOT_URL }}/pages/contacto.html">Contacto</a></li>
                      </ul>
                   </div><!--/.nav-collapse -->
                </div><!-- /.navbar-inner -->
@@ -93,7 +93,6 @@
       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
       <script src="{{ STATIC_URL }}/js/main.js"></script>
       <script src="{{ STATIC_URL }}/js/bootstrap.js"></script>
-      <script src="{{ STATIC_URL }}/js/bootstrap-carousel.js"></script>
       <script>
          !function ($) {
             $(function(){
