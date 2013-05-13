@@ -14,7 +14,7 @@
       <link href="{{ STATIC_URL }}/css/style.css" rel="stylesheet">
 
       {% block header %}
-      <title>Paradox Effects</title>
+      <title>Paradox Effects - Effect Engineering</title>
       {% endblock %}
 
    </head>
@@ -31,12 +31,13 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                   </button>
-                  <a class="brand" href="#">Project name</a>
+                  <a class="brand" href="#">Paradox Effects</a>
                   <div class="nav-collapse collapse">
                      <ul class="nav">
                         <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#about">Pedales</a></li>
+                        <li><a href="#about">Sobre Nosotros</a></li>
+                        <li><a href="#contact">Contacto</a></li>
                      </ul>
                   </div><!--/.nav-collapse -->
                </div><!-- /.navbar-inner -->
@@ -46,6 +47,42 @@
       </div><!-- /.navbar-wrapper -->
 
       <!-- Carousel -->
+      <div id="myCarousel" class="carousel slide">
+         <div class="carousel-inner">
+            <div class="item active">
+               <img src="{{ STATIC_URL }}/img/slide-01.jpg" alt="">
+               <div class="container">
+                  <div class="carousel-caption">
+                     <h1>Example headline.</h1>
+                     <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                     <a class="btn btn-large btn-primary" href="#">Sign up today</a>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <img src="{{ STATIC_URL }}/img/slide-02.jpg" alt="">
+               <div class="container">
+                  <div class="carousel-caption">
+                     <h1>Another example headline.</h1>
+                     <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                     <a class="btn btn-large btn-primary" href="#">Learn more</a>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <img src="{{ STATIC_URL }}/img/slide-03.jpg" alt="">
+               <div class="container">
+                  <div class="carousel-caption">
+                     <h1>One more for good measure.</h1>
+                     <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                     <a class="btn btn-large btn-primary" href="#">Browse gallery</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+         <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+      </div><!-- /.carousel -->
 
       <div class="container showfoff">
          {% block content %}
@@ -56,6 +93,13 @@
       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
       <script src="{{ STATIC_URL }}/js/main.js"></script>
       <script src="{{ STATIC_URL }}/js/bootstrap.js"></script>
+      <script>
+         !function ($) {
+            $(function(){
+               $('#myCarousel').carousel()
+            })
+         }(window.jQuery)
+      </script>
       {% endblock %}
    </body>
 </html>
