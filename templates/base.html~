@@ -31,7 +31,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                   </button>
-                  <a class="brand" href="#">Paradox Effects</a>
+                  <a class="brand" href="{{ ROOT_URL }}/index.html">Paradox Effects</a>
                   <div class="nav-collapse collapse">
                      <ul class="nav">
                         <li class="active"><a href="{{ ROOT_URL }}/index.html">Home</a></li>
@@ -87,6 +87,13 @@
       <div class="container showfoff">
          {% block content %}
          {% endblock %}
+         <!-- FOOTER -->
+         <hr class="featurette-divider">
+         <footer>
+            <p class="pull-right"><a href="#">Back to top</a></p>
+            <p>&copy; 2013 Ponk, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+         </footer>
+
       </div>
 
       {% block scripts %}
