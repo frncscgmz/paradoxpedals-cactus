@@ -19,9 +19,5 @@ $(document).ready(function() {
          break;
       case 'contacto.html':
          $('#li_contacto').addClass('active');
-         break;
-      default:
-         $('#li_home').addClass('active');
-         break;
    }
 });
