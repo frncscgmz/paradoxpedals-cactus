@@ -1,2 +1,4 @@
 index.html
+pedales.html
 contacto.html
+about.html

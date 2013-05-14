@@ -35,8 +35,8 @@
                   <div class="nav-collapse collapse">
                      <ul class="nav">
                         <li class="active"><a href="{{ ROOT_URL }}/index.html">Home</a></li>
-                        <li><a href="#about">Pedales</a></li>
-                        <li><a href="#about">Sobre Nosotros</a></li>
+                        <li><a href="{{ ROOT_URL }}/pedales.html">Pedales</a></li>
+                        <li><a href="{{ ROOT_URL }}/about.html">Sobre Nosotros</a></li>
                         <li><a href="{{ ROOT_URL }}/contacto.html">Contacto</a></li>
                      </ul>
                   </div><!--/.nav-collapse -->
