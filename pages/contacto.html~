@@ -35,7 +35,11 @@
             <strong>Email</strong>
             <a href="mailto:mail@paradoxeffects.com">mail@paradoxeffects.com</a>
          </address>
-         <strong>Social:</strong>
+         <strong>Social</strong><br>
+         <a href="#"><i class="icon-facebook icon-2x"> </i></a>
+         <i class="icon-twitter icon-2x"> </i>
+         <i class="icon-pinterest icon-2x"> </i>
+         <i class="icon-google-plus icon-2x"> </i>
       </div>
    </div>
    <!-- FOOTER -->
