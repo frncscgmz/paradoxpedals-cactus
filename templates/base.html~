@@ -14,7 +14,7 @@
       <link href="{{ STATIC_URL }}/css/style.css" rel="stylesheet">
 
       <!-- Font Awesome -->
-      <link href="{{ STATIC_URL }}/css/font-awesome.min.css" rel="stylesheet">
+      <link href="{{ STATIC_URL }}/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
       {% block header %}
       <title>Paradox Effects - Effect Engineering</title>
@@ -27,7 +27,7 @@
       <div class="navbar-wrapper">
          <div class="container">
 
-            <div class="navbar navbar-inverse">
+            <div class="navbar navbar-inverse navbar-fixed-top">
                <div class="navbar-inner">
                   <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
                      <span class="icon-bar"></span>
