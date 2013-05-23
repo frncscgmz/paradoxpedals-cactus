@@ -1,4 +1,5 @@
 index.html
+producto.html
 pedales.html
 contacto.html
 about.html

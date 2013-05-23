@@ -6,6 +6,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>producto.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>pedales.html</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
