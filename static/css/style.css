@@ -109,14 +109,15 @@ body {
    background-color: transparent;
    position: static;
    max-width: 550px;
-   padding: 0 20px;
+   padding: 0 30px;
    margin-top: 200px;
 }
 .carousel-caption h1,
 .carousel-caption .lead {
    margin: 0;
    line-height: 1.25;
-   color: #fff;
+   /*color: #fff;*/
+   color: #000;
    text-shadow: 0 1px 1px rgba(0,0,0,.4);
 }
 .carousel-caption .btn {

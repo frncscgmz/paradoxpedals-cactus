@@ -29,25 +29,31 @@
 
             <div class="navbar navbar-inverse navbar-fixed-top">
                <div class="navbar-inner">
-                  <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                     <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                  </button>
-                  <a class="brand" href="{{ ROOT_URL }}/index.html">Paradox Effects</a>
-                  <div class="nav-collapse collapse">
-                     <ul class="nav">
-                        <li id="li_home"><a href="{{ ROOT_URL }}/index.html">Home</a></li>
-                        <li id="li_pedales"><a href="{{ ROOT_URL }}/pedales.html">Pedales</a></li>
-                        <li id="li_about"><a href="{{ ROOT_URL }}/about.html">Sobre Nosotros</a></li>
-                        <li id="li_contacto"><a href="{{ ROOT_URL }}/contacto.html">Contacto</a></li>
-                     </ul>
-                  </div><!--/.nav-collapse -->
+                  <div class="container">
+                     <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                     </button>
+                     <a class="brand" href="{{ ROOT_URL }}/index.html">Paradox Effects</a>
+                     <div class="nav-collapse collapse">
+                        <ul class="nav">
+                           <li id="li_home"><a href="{{ ROOT_URL }}/index.html">Home</a></li>
+                           <li id="li_pedales"><a href="{{ ROOT_URL }}/pedales.html">Pedales</a></li>
+                           <li id="li_about"><a href="{{ ROOT_URL }}/about.html">Sobre Nosotros</a></li>
+                           <li id="li_contacto"><a href="{{ ROOT_URL }}/contacto.html">Contacto</a></li>
+                        </ul>
+                     </div><!--/.nav-collapse -->
+                  </div>
                </div><!-- /.navbar-inner -->
             </div><!-- /.navbar -->
 
          </div> <!-- /.container -->
       </div><!-- /.navbar-wrapper -->
+
+      <span id="corner-banner">
+         <em>beta</em>
+      </span> 
 
       {% block content %}
       {% endblock %}
